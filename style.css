@@ -1,0 +1,84 @@
+
+.formulario{
+    height: 480px;
+    width: 483px;
+    margin: 5% auto;
+    border: 1px solid #c0392b;
+  
+}
+
+.logo{
+    height: 90px;
+    width: 100px;
+    margin-top: -10px;
+    margin: 0 0 0 40%;
+}
+
+.datos{
+    padding: 12px;
+    outline: none;
+    margin: 8px 0 0 20px;
+    width: 25%px; 
+    
+}
+
+.correo{
+    padding: 12px;
+    outline: none;
+    margin: 7px 0 0 20px;
+    width: 89%;
+    text-align: center;
+}
+
+.pw{
+    padding: 12px;
+    outline: none;
+    margin: 7px 0 0 20px;
+    width: 89%; 
+    text-align: center;
+
+}
+
+.d-p{
+    padding: 12px;
+    outline: none;
+    margin: 8px 0 0 225px;
+    width: 225px;
+    text-align: center; 
+   
+}
+
+.boton{
+    margin: 7px 0 0 42%;
+    cursor: pointer;
+    height: 50px;
+    width: 102px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    outline: none;
+
+}
+
+#sexo{
+    margin: -50px 0 0 14px;
+
+}
+
+#sexo label{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+input::placeholder{
+    font-family: sans-serif;
+    color: #2d3436;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+    border: 2px solid #d63031;
+    border-radius: 15px 15px 15px 15px;
+}
