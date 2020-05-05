@@ -23,9 +23,13 @@
                 <select name="sexo" id="">
                     <option value="Masculino">Masculino</option>
                     <option value="Femenino">Femenino</option>
-                    <option value="Otro">Otro</option>
+                    <<option value="Otro">Otro</option>
                 </select>
             </div>
+
+            <div class="ch">
+                <input type="checkbox" class="ck" name="radio" id=""><label for="" class="l-radio">Acepta <a href="">terminos y condciones?</a> </label>
+            </div> 
 
             <br>
             <input class="btn-primary boton" type="submit" name="validar" value="Registrar" >

@@ -9,7 +9,7 @@
     }
 
     if (isset($_POST['validar'])){
-        if(isset($_POST['nombre1']) && !empty($_POST['nombre1']) && isset($_POST['nombre2']) && !empty($_POST['nombre2']) && isset($_POST['apellido1']) && !empty($_POST['apellido2'])
+        if(isset($_POST['nombre1']) && !empty($_POST['nombre1']) && strlen($_POST['nombre2']) >=0 && isset($_POST['apellido1']) && !empty($_POST['apellido2'])
         && isset($_POST['correo']) && !empty($_POST['correo']) && isset($_POST['pw']) && !empty($_POST['pw']) && isset($_POST['fecha'])
         && !empty($_POST['fecha']) && isset($_POST['sexo']) && !empty($_POST['sexo'])){
 
