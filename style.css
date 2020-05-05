@@ -1,6 +1,6 @@
 
 .formulario{
-    height: 480px;
+    height: 500px;
     width: 483px;
     margin: 5% auto;
     border: 1px solid #c0392b;
@@ -42,9 +42,10 @@
 .d-p{
     padding: 12px;
     outline: none;
-    margin: 8px 0 0 225px;
-    width: 225px;
+    margin: 8px 0 0 21px;
+    width: 427px;
     text-align: center; 
+    
    
 }
 
@@ -61,7 +62,8 @@
 }
 
 #sexo{
-    margin: -50px 0 0 14px;
+    margin: -20px 0 0 20px;
+    margin-top: 20px;
 
 }
 

@@ -15,9 +15,9 @@
             <input class="datos" type="text" name="nombre2" placeholder="segundo nombre">
             <input class="datos" type="text" name="apellido1" placeholder="Primer apellido">
             <input class="datos" type="text" name="apellido2" placeholder="segundo apellido">
-            <input class="correo" type="text" name="correo" placeholder="correo">
+            <input class="correo" type="email" name="correo" placeholder="correo">
             <input class="pw" type="password" name="pw" placeholder="contraseña">
-            <input class="d-p" type="text" name="fecha" placeholder="DD/MM/YY">
+            <input class="d-p" type="text" name="fecha" placeholder="Fecha nacimiento YYYY/MM/DD">
             <div id="sexo" >
                 <label for="">sexo</label>
                 <select name="sexo" id="">
