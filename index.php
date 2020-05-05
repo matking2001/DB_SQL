@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="formulario">
-        <form  method="post">
+        <form  method="POST">
             <h1><img class="logo" src="https://www.tekla.io/wp-content/uploads/2019/09/logo-1162901_1920.png"></h1>
             <input class="datos" type="text" name="nombre1" placeholder="Primer nombre">
             <input class="datos" type="text" name="nombre2" placeholder="segundo nombre">
@@ -32,7 +32,7 @@
         </form>
     </div>
 
-    <?php 
+    <?php
 
         include('insertar.php');
 
