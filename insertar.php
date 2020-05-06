@@ -3,7 +3,6 @@
     include("conexion.php");
 
     if ($conect){
-        /*echo "Conexion exitosa";*/
       ?> 
       
       <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -15,8 +14,6 @@
       
       <?php
     }else{
-        /*echo "Error con la conexion";*/
-
         ?>
         
       <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -26,7 +23,7 @@
         </button>
       </div>
         
-        <?php
+      <?php
     }
 
     if (isset($_POST['validar'])){
@@ -46,13 +43,41 @@
             ('$nombre1','$nombre2','$apellido1','$apellido2','$correo','$pw','$sexo','$fecha')";
             $reg= mysqli_query($conect,$datos);
             if ($reg){
-              echo " registro exitoso";
+              ?>
+
+              <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Registro exitoso!</strong>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              
+            <?php
             }else{
-              echo " error al registrace";
+              ?>
+
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Registro exitoso!</strong>
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              
+            <?php
             }
 
         }else{
-          echo "favor completar los datos";
+          ?>
+
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+              <strong>Favor completar los datos!</strong>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+              
+          <?php
+
         }
       }
 
