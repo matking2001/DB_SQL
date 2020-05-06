@@ -8,7 +8,7 @@
 }
 
 .datos{
-    padding: 12px;
+    padding: 10px;
     outline: none;
     margin: 8px 0 0 20px;
     width: 25%px; 
@@ -16,7 +16,7 @@
 }
 
 .correo{
-    padding: 12px;
+    padding: 10px;
     outline: none;
     margin: 7px 0 0 20px;
     width: 89%;
@@ -24,7 +24,7 @@
 }
 
 .pw{
-    padding: 12px;
+    padding: 10px;
     outline: none;
     margin: 7px 0 0 20px;
     width: 89%; 
@@ -33,7 +33,7 @@
 }
 
 .d-p{
-    padding: 12px;
+    padding: 10px;
     outline: none;
     margin: 8px 0 0 21px;
     width: 275px;
