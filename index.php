@@ -20,7 +20,8 @@
             <input class="datos" type="text" name="apellido2" placeholder="segundo apellido">
             <input class="correo" type="email" name="correo" placeholder="correo">
             <input class="pw" type="password" name="pw" placeholder="contraseña">
-            <input class="d-p" type="text" name="fecha" placeholder="Fecha nacimiento YYYY/MM/DD">
+            <label for="">Fecha de nacimiento</label>
+            <input class="d-p" type="text" name="fecha" placeholder="YYYY/MM/DD">
             <div id="sexo" >
                 <label for="">sexo</label>
                 <select name="sexo" id="">
