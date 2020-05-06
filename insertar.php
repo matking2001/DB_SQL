@@ -3,9 +3,30 @@
     include("conexion.php");
 
     if ($conect){
-        echo "Conexion exitosa";
+        /*echo "Conexion exitosa";*/
+      ?> 
+      
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>conexion Exitosa!</strong>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <?php
     }else{
-        echo "Error con la conexion";
+        /*echo "Error con la conexion";*/
+
+        ?>
+        
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Error de conexion!</strong>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        
+        <?php
     }
 
     if (isset($_POST['validar'])){
