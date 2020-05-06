@@ -20,7 +20,7 @@
             <input class="datos" type="text" name="apellido2" placeholder="segundo apellido">
             <input class="correo" type="email" name="correo" placeholder="correo">
             <input class="pw" type="password" name="pw" placeholder="contraseña">
-            <label for="">Fecha de nacimiento</label>
+            <label class="label" >Fecha de nacimiento:</label>
             <input class="d-p" type="text" name="fecha" placeholder="YYYY/MM/DD">
             <div id="sexo" >
                 <label for="">sexo</label>
@@ -30,9 +30,14 @@
                     <<option value="Otro">Otro</option>
                 </select>
             </div>
+            <div class="radio">
+                <label for="">Eres mayor de edad?</label>
+                <input type="radio" name="radio" value="si"><label for="">si</label>
+                <input type="radio" name="radio" value="no"><label for="">no</label>
+            </div>
 
             <div class="ch">
-                <input type="checkbox" class="ck" name="radio" id=""><label for="" class="l-radio">Acepta <a href="https://www.masquenegocio.com/2016/05/16/ecommerce-pagina-web/">terminos y condciones?</a> </label>
+                <input type="checkbox" class="ck" name="ck" id=""><label for="" class="l-radio">Acepta <a href="https://www.masquenegocio.com/2016/05/16/ecommerce-pagina-web/">terminos y condciones?</a> </label>
             </div> 
 
             <br>
