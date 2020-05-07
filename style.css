@@ -2,7 +2,7 @@
 .formulario{
     height: 560px;
     width: 483px;
-    margin: 4% auto;
+    margin: 50px auto;
     border: 1px solid #c0392b;
   
 }
@@ -102,6 +102,7 @@ input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus{
 
 .alert{
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: -620px;
+    right: -950px;
+    width: 30%;
 }

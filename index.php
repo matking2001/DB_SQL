@@ -11,8 +11,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="formulario">
-        <form  method="POST">
+    <div class="container">
+        <form class="formulario"  method="POST">
             <h1 class="modal-dialog text-center" >Form Registro</h1>
             <input class="datos" type="text" name="nombre1" placeholder="Primer nombre">
             <input class="datos" type="text" name="nombre2" placeholder="segundo nombre">
