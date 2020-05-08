@@ -14,26 +14,45 @@
     <div class="container">
         <form class="formulario"  method="POST">
             <h1 class="modal-dialog text-center" >Form Registro</h1>
-            <input class="datos" type="text" name="nombre1" placeholder="Primer nombre">
-            <input class="datos" type="text" name="nombre2" placeholder="segundo nombre">
-            <input class="datos" type="text" name="apellido1" placeholder="Primer apellido">
-            <input class="datos" type="text" name="apellido2" placeholder="segundo apellido">
-            <input class="correo" type="email" name="correo" placeholder="correo">
-            <input class="pw" type="password" name="pw" placeholder="contraseña">
+            <input class="datos" type="text" name="nombre1" placeholder="Primer nombre" maxlemaxlength="20" size="20" required>
+            <input class="datos" type="text" name="nombre2" placeholder="segundo nombre" maxlength="20" size="20">
+            <input class="datos" type="text" name="apellido1" placeholder="Primer apellido" maxlength="20" size="20" required>
+            <input class="datos" type="text" name="apellido2" placeholder="segundo apellido" maxlength="20" size="20" required>
+            <input class="correo" type="email" name="correo" placeholder="correo" required>
+            <label class="label" >Celular:</label>
+            <input class="pw" type="number" name="numero" id="" placeholder="3005507242">
+            <label class="label" >contraseña:</label>
+            <input class="pw" type="password" name="pw" placeholder="**********" maxlength="11" size="11" required>
             <label class="label" >Fecha de nacimiento:</label>
-            <input class="d-p" type="text" name="fecha" placeholder="YYYY/MM/DD">
+            <input class="d-p" type="date" name="fecha" placeholder="YYYY/MM/DD">
+            <div class="Dep">
+                <label class="label" for="">Departamento:</label>
+                <select name="departamento" id="">
+                    <option value="Atlantico">Atlantico</option>
+                    <option value="Antioquia">Antioquia</option>
+                    <option value="Santa-marta">Santa marta</option>
+                    <option value="Valle">Valle</option>
+                    <option value="Bolivar">Bolivar</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
             <div id="sexo" >
                 <label for="">sexo</label>
                 <select name="sexo" id="">
                     <option value="Masculino">Masculino</option>
                     <option value="Femenino">Femenino</option>
-                    <<option value="Otro">Otro</option>
+                    <option value="Otro">Otro</option>
                 </select>
             </div>
             <div class="radio">
-                <label for="">Eres mayor de edad?</label>
-                <input type="radio" name="radio" value="si"><label for="">si</label>
+                <label class="label" for="">Eres mayor de edad?</label>
+                <input type="radio" name="radio" value="si" checked ><label for="">si</label>
                 <input type="radio" name="radio" value="no"><label for="">no</label>
+            </div>
+<label class="label" id="ter" for="">Terminos:</label>
+            <div class="condicion">
+                
+                <textarea name="" id="text" cols="30" rows=10" readonly>Esta consiente que podremos acceder a todos sus registros en base de datos existentes</textarea>
             </div>
 
             <div class="ch">
@@ -41,7 +60,7 @@
             </div> 
 
             <br>
-            <input class="btn-danger boton" type="submit" name="validar" value="Registrar" >
+            <input class="btn-outline-danger  boton" type="submit" name="validar" value="Registrar" >
         </form>
     </div>
 
