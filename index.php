@@ -29,7 +29,7 @@
                 <label class="label" for="">Departamento:</label>
                 <select name="departamento" id="">
                     <option value="Atlantico">Atlantico</option>
-                    <option value="Antioquia">Antioquia</option>
+                    <option value="Antioquia">Antioquia</option> 
                     <option value="Santa-marta">Santa marta</option>
                     <option value="Valle">Valle</option>
                     <option value="Bolivar">Bolivar</option>
