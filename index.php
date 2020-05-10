@@ -14,17 +14,17 @@
     <div class="container">
         <form class="formulario"  method="POST">
             <h1 class="modal-dialog text-center" >Form Registro</h1>
-            <input class="datos" type="text" name="nombre1" placeholder="Primer nombre"    maxlength="20" size="20" required>
-            <input class="datos" type="text" name="nombre2" placeholder="segundo nombre"  maxlength="20" size="20">
-            <input class="datos" type="text" name="apellido1" placeholder="Primer apellido"  maxlength="20" size="20" required>
-            <input class="datos" type="text" name="apellido2" placeholder="segundo apellido"  maxlength="20" size="20" required>
+            <input class="datos" type="text" name="nombre1" placeholder="Primer nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required autofocus>
+            <input class="datos" type="text" name="nombre2" placeholder="segundo nombre"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20">
+            <input class="datos" type="text" name="apellido1" placeholder="Primer apellido"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required>
+            <input class="datos" type="text" name="apellido2" placeholder="segundo apellido"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required>
             <input class="correo" type="email" name="correo" placeholder="correo" required>
             <label class="label" >Celular:</label>
-            <input class="pw" type="number" name="numero" id="" placeholder="example 3005507242" min="0">
+            <input class="pw" type="tel" name="numero" id="" placeholder="example 3005507242" min="0" pattern="[0-9]{10}" size="10" required>
             <label class="label" >contraseña:</label>
-            <input class="pw" type="password" name="pw" placeholder="**********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+            <input class="pw" type="password" name="pw" placeholder="**********"  maxlength="15" required>
             <label class="label" >Fecha de nacimiento:</label>
-            <input class="d-p" type="text" name="fecha" placeholder="YYYY/MM/DD">
+            <input class="d-p" type="date" name="fecha" placeholder="YYYY/MM/DD" required>
             <div class="Dep">
                 <label class="label" for="">Departamento:</label>
                 <select name="departamento" id="">

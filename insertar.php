@@ -44,7 +44,7 @@
             $numero= trim($_POST['numero']);
             $dep= trim($_POST['departamento']);
             $gusto= trim($_POST['gusto']);
-            $datos= "INSERT INTO `registro`( `nombre1`, `nombre2`, `apellido1`, `apellido2`, `correo`, `contraseña`, `sexo`, `fecha_nac`,`Mayor_edad`,`Celular`,`Departamento`,`Pasatiempo`) VALUES
+            $datos= "INSERT INTO `datos`( `Nombre1`, `Nombre2`, `Apellido1`, `Apellido2`, `Correo`, `Contraseña`, `Sexo`, `Fecha_Nac`,`Mayor_Edad`,`Celular`,`Departamento`,`Pasatiempo`) VALUES
             ('$nombre1','$nombre2','$apellido1','$apellido2','$correo','$pw','$sexo','$fecha','$edad','$numero','$dep','$gusto')";
             $reg= mysqli_query($conect,$datos);
             if ($reg){

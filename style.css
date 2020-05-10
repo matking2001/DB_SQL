@@ -1,13 +1,10 @@
 
-.container{
-    margin-top: 50px;
-}
-
 .formulario{
-    height: 700px;
-    width: 900px;
+    height: 650px;
+    width: 865px;
     margin: 50px auto;
     border: 4px solid #c0392b;
+    margin-top: 50px;
   
 }
 
@@ -15,7 +12,9 @@
     padding: 12px;
     outline: none;
     margin: 8px 0 0 15px;
-    width: 15%px; 
+    width: 191px;
+    border: solid #b2bec3;
+    text-align: center; 
     
 }
 
@@ -23,16 +22,18 @@
     padding: 10px;
     outline: none;
     margin: 7px 0 0 20px;
-    width: 89%;
+    width: 818px;
     text-align: center;
+    border: solid #b2bec3;
 }
 
 .pw{
     padding: 10px;
     outline: none;
     margin: 7px 0 0 20px;
-    width: 30%; 
+    width: 281px; 
     text-align: center;
+    border: solid #b2bec3;
 
 }
 
@@ -43,8 +44,8 @@
     width: 192px;
     text-align: center; 
     margin-left: 35px;
+    border: solid #b2bec3;
     
-   
 }
 
 .boton{
@@ -56,7 +57,7 @@
     font-family: sans-serif;
     text-align: center;
     outline: none;
-    margin-top: 40px;
+    margin-top: 5px;
 
 }
 
@@ -79,7 +80,7 @@ input::placeholder{
     color: #2d3436;
 }
 
-input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,input[type="number"]:focus{
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,input[type="tel"]:focus{
     border: 2px solid #d63031;
     border-radius: 15px 15px 15px 15px;
 }
@@ -107,10 +108,9 @@ input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,
 
 .alert{
     position: absolute;
-    top: -660px;
+    margin-top: -750px;
     right: -980px;
     width: 28%;
-    height: 40px;
     
 }
 
