@@ -20,7 +20,7 @@
             <input class="datos" type="text" name="apellido2" placeholder="segundo apellido"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required>
             <input class="correo" type="email" name="correo" placeholder="correo" required>
             <label class="label" >Celular:</label>
-            <input class="pw" type="tel" name="numero" id="" placeholder="example 3005507242" min="0" pattern="[0-9]{10}" size="10" required>
+            <input class="pw" type="tel" name="numero" id="" placeholder="example 3005507242" min="0" pattern="[0-9]{10}" maxlength="10" size="10" required>
             <label class="label" >contraseña:</label>
             <input class="pw" type="password" name="pw" placeholder="**********"  maxlength="15" required>
             <label class="label" >Fecha de nacimiento:</label>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="ch">
-                <input type="checkbox" class="ck" name="ck" id=""><label for="" class="l-radio">Acepta <a href="https://www.masquenegocio.com/2016/05/16/ecommerce-pagina-web/">terminos y condciones?</a> </label>
+                <input type="checkbox" class="ck" name="ck" id="" checked><label for="" class="l-radio">Acepta <a href="https://www.masquenegocio.com/2016/05/16/ecommerce-pagina-web/">terminos y condciones?</a> </label>
             </div> 
 
             <br>
