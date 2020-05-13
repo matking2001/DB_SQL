@@ -14,17 +14,17 @@
     <div class="container">
         <form class="formulario"  method="POST">
             <h1 class="modal-dialog text-center" >Form Registro</h1>
-            <input class="datos" type="text" name="nombre1" placeholder="Primer nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required autofocus>
-            <input class="datos" type="text" name="nombre2" placeholder="segundo nombre"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20">
-            <input class="datos" type="text" name="apellido1" placeholder="Primer apellido"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required>
-            <input class="datos" type="text" name="apellido2" placeholder="segundo apellido"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required>
-            <input class="correo" type="email" name="correo" placeholder="correo" required>
-            <label class="label" >Celular:</label>
-            <input class="pw" type="tel" name="numero" id="" placeholder="example 3005507242" min="0" pattern="[0-9]{10}" maxlength="10" size="10" required>
-            <label class="label" >contraseña:</label>
-            <input class="pw" type="password" name="pw" placeholder="**********"  maxlength="15" required>
-            <label class="label" >Fecha de nacimiento:</label>
-            <input class="d-p" type="date" name="fecha" placeholder="YYYY/MM/DD" required>
+            <input id="clear" class="datos" type="text" name="nombre1" placeholder="Primer nombre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required autofocus>
+            <input id="clear2" class="datos" type="text" name="nombre2" placeholder="segundo nombre"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20">
+            <input id="clear3" class="datos" type="text" name="apellido1" placeholder="Primer apellido"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required>
+            <input id="clear4" class="datos" type="text" name="apellido2" placeholder="segundo apellido"  pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" maxlength="20" size="20" required>
+            <input id="clear5" class="correo" type="email" name="correo" placeholder="correo" required>
+            <label  class="label" >Celular:</label>
+            <input id="clear6" class="pw" type="tel" name="numero" id="" placeholder="example 3005507242" min="0" pattern="[0-9]{10}" maxlength="10" size="10" required>
+            <label  class="label" >contraseña:</label>
+            <input id="clear7" class="pw" type="password" name="pw" placeholder="**********"  maxlength="15" required>
+            <label  class="label" >Fecha de nacimiento:</label>
+            <input id="clear8" class="d-p" type="date" name="fecha" placeholder="YYYY/MM/DD" required>
             <div class="Dep">
                 <label class="label" for="">Departamento:</label>
                 <select name="departamento" id="">
@@ -73,7 +73,8 @@
             </div> 
 
             <br>
-            <input class="btn-outline-danger  boton" type="submit" name="validar" value="Registrar" >
+            <input class="btn-outline-primary  boton" type="submit" name="validar" value="Registrar" >
+            <input type="button" class="btn-outline-danger boton" value="Limpiar" onclick="borrar()">
         </form>
     </div>
 
@@ -82,5 +83,21 @@
         include('insertar.php');
 
     ?>
+
+    <Script>
+        function borrar() {
+
+            var a= document.getElementById('clear').value="";
+            var b= document.getElementById('clear2').value="";
+            var c= document.getElementById('clear3').value="";
+            var d= document.getElementById('clear4').value="";
+            var e= document.getElementById('clear5').value="";
+            var f= document.getElementById('clear6').value="";
+            var g= document.getElementById('clear7').value="";
+            var h= document.getElementById('clear8').value="";
+
+            
+        }
+    </Script>
 </body>
 </html>
