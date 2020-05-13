@@ -69,7 +69,7 @@
             </div>
 
             <div class="ch">
-                <input type="checkbox" class="ck" name="ck" id="" checked><label for="" class="l-radio">Acepta <a href="https://www.masquenegocio.com/2016/05/16/ecommerce-pagina-web/">terminos y condciones?</a> </label>
+                <input type="checkbox" class="ck" name="ck" id="" required checked><label for="" class="l-radio">Acepta <a href="https://www.masquenegocio.com/2016/05/16/ecommerce-pagina-web/">terminos y condciones?</a> </label>
             </div> 
 
             <br>
