@@ -74,7 +74,6 @@
 
             <br>
             <input class="btn-outline-primary  boton" type="submit" name="validar" value="Registrar" >
-            <input type="button" class="btn-outline-danger boton" value="Limpiar" onclick="borrar()">
         </form>
     </div>
 
@@ -84,20 +83,5 @@
 
     ?>
 
-    <Script>
-        function borrar() {
-
-            var a= document.getElementById('clear').value="";
-            var b= document.getElementById('clear2').value="";
-            var c= document.getElementById('clear3').value="";
-            var d= document.getElementById('clear4').value="";
-            var e= document.getElementById('clear5').value="";
-            var f= document.getElementById('clear6').value="";
-            var g= document.getElementById('clear7').value="";
-            var h= document.getElementById('clear8').value="";
-
-            
-        }
-    </Script>
 </body>
 </html>
